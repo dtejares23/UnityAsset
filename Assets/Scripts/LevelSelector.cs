@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelector : MonoBehaviour
 {
+    
     private void Start()
     {
         
@@ -12,6 +13,18 @@ public class LevelSelector : MonoBehaviour
 
     public void OpenScene()
     {
-        SceneManager.LoadScene("DragAndDropEnvironment");
+        if(gameObject.tag == "AssetEnvironment")
+        {
+            SceneManager.LoadScene("AssetEnvironment");
+        }
+
+        if(gameObject.tag == "DragAndDropEnvironment")
+        {
+            SceneManager.LoadScene("DragAndDropEnvironment");
+        }
+        if (gameObject.tag == "GarageScene")
+        {
+            SceneManager.LoadScene("GarageScene");
+        }
     }
 }
