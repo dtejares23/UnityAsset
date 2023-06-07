@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/UI_Selector.unity
+    guid: d0a60227f66d36f479df60c71756cef3
+  - enabled: 1
+    path: Assets/Scenes/DragAndDropEnvironment.unity
+    guid: 23b4169508c55b249a8eacbbd05c05e9
+  - enabled: 1
     path: Assets/Scenes/AssetEnvironment.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
