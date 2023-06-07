@@ -9,6 +9,7 @@ TagManager:
   - AssetEnvironment
   - GarageScene
   - DragAndDropEnvironment
+  - Map
   layers:
   - Default
   - TransparentFX

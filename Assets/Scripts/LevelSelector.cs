@@ -11,6 +11,14 @@ public class LevelSelector : MonoBehaviour
         
     }
 
+    public void OpenMap()
+    {
+        if (gameObject.tag == "Map")
+        {
+            SceneManager.LoadScene("UI_Selector");
+        }
+    }
+
     public void OpenScene()
     {
         if(gameObject.tag == "AssetEnvironment")
@@ -26,5 +34,7 @@ public class LevelSelector : MonoBehaviour
         {
             SceneManager.LoadScene("GarageScene");
         }
+
+        
     }
 }
