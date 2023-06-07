@@ -12,6 +12,6 @@ public class LevelSelector : MonoBehaviour
 
     public void OpenScene()
     {
-        SceneManager.LoadScene("DragAndDropEnvironment");
+        SceneManager.LoadScene("AssetEnvironment");
     }
 }
